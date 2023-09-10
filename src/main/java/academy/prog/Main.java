@@ -25,7 +25,6 @@ public class Main {
 				return;
 			}
 
-	
 			Thread th = new Thread(new GetThread(login));
 			th.setDaemon(true);
 			th.start();

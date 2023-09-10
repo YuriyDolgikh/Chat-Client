@@ -14,7 +14,6 @@ public class User {
     private String password;
     private boolean online;
 
-
     public User(String login, String password, boolean online) {
         this.name = login;
         this.password = password;
@@ -44,8 +43,6 @@ public class User {
             return conn.getResponseCode(); // 200?
         }
     }
-
-
 
     public String getName() {
         return name;

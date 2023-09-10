@@ -13,7 +13,7 @@ public class TextProcessing {
         return to;
     }
 
-    public static String getText(String text){ //если в строке текста есть указатель на группу, юзера, выделяем только текст
+    public static String getText(String text){
         if (text.startsWith("@") || text.startsWith("#")){
             text = text.substring(text.indexOf(" ")+1);
         }

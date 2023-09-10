@@ -43,7 +43,7 @@ public class GetThread implements Runnable {
                     is.close();
                 }
 
-                Thread.sleep(500);
+                Thread.sleep(1000);
             }
         } catch (Exception ex) {
             ex.printStackTrace();
